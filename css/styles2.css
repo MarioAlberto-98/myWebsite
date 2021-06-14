@@ -1,0 +1,196 @@
+* {
+    margin: 0;   /*checar */
+    box-sizing: border-box;   /*checar */
+ 
+}
+
+
+@font-face {
+    font-family: helve1;
+    font-style: bold;
+    src: url('../fonts/HelveticaBold.otf');
+}
+@font-face {
+    font-family: helve2;
+    font-style: light;
+    src: url('../fonts/HelveticaLight.otf');
+}
+@font-face {
+    font-family: helve3;
+    font-style: roman;
+    src: url('../fonts/HelveticaRoman.otf');
+}
+@font-face {
+    font-family: helve4;
+    font-style: fractions;
+    src: url('../fonts/HelveticaFractions.otf');
+}
+@font-face {
+    font-family: helve5;
+    font-style: obl;
+    src: url('../fonts/HelveticaObl.otf');
+}
+
+
+
+
+
+
+.header {
+    background:  rgba(0, 0, 0, 0.911);/*Color de la barra de navegacion*/
+    position: fixed; /*SE QUEDA ESTATICO ARRIVA DEL LA PANTALLA*/
+    height: 80px;
+    width: 100%;
+    padding: 10px 40px 0;
+    z-index: 4;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between; /* Divide todo el menu*/
+   
+/*max-width: 992px; /* Para pantallas grandes se pone esta medida para que se cente en un monitor grande*/
+max-width: 1200px; /* Tamaño que dispone el texto de la barra, en este cado los botos y el logo*/
+  margin: 0 auto;
+}
+
+.nav-link {
+    color: rgb(207, 207, 207);
+    text-decoration: none;
+    
+}
+
+
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+    font-family: helve1;
+    font-style: bold;
+   
+    
+}
+
+
+.nav-menu {
+    display: flex;/*Por automatico hace las listas en row*/
+    
+    
+    list-style: none; /* Quita los puntos de las listas */
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    /* text-transform: uppercase;    ----> Para hacer las letras en mayusculas */
+    width: max-content; /*Para que no nos corte palabras*/
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+    font-family: helve3;
+    font-style: roman;
+   
+    
+
+}
+
+.nav-menu-link:hover{
+    background-color: rgb(66, 66, 66);
+    transition: 0.5s;
+}
+
+.nav-toggle{
+    
+color: rgb(223, 223, 223);
+background: none;
+border: none;
+font-size: 30px;
+padding: 0 5px;
+
+line-height: 60px;
+display: none;  /* Para no mostar el boton hamburguesa en dispositivos de esquitorio, lo esconde*/
+
+
+}
+
+@media(max-width:760px){
+   
+body {
+    padding-top: 30px;
+}
+
+.header {
+    
+    height: 78px;
+  
+}
+
+
+
+
+.logo {
+    font-size: 25px;
+  
+    padding: 0 10px;
+    line-height: 60px;
+}
+
+
+.nav-menu {
+   
+    flex-direction: column;
+    margin-right: 20px;
+
+    background-color: rgba(0, 0, 0, 0.979);
+    position: fixed;
+    left: 0;
+    top: 70px;
+    width: 100%;
+    align-items: center;
+    padding: 20px 0;
+    height: calc(100% - 60px);
+    overflow-y: auto;
+    
+
+
+    /*Esconder el Menu */
+    left:100%;
+    transition: left 0.3s;
+
+
+}
+
+.nav-menu-item{
+ 
+    line-height: 70px;
+  
+}
+
+
+
+.nav-menu-link:hover,
+.nav-menu-link_active{
+    background-color: rgb(77, 77, 77);
+    
+}
+
+.nav-toggle{
+
+display: block; 
+
+
+}
+.nav-menu_visible{
+
+    /*Hacerlo Visible*/
+    left: 0;
+}
+    
+}

@@ -1,0 +1,267 @@
+
+@font-face {
+    font-family: helve1;
+    font-style: bold;
+    src: url('../fonts/HelveticaBold.otf');
+}
+@font-face {
+    font-family: helve2;
+    font-style: light;
+    src: url('../fonts/HelveticaLight.otf');
+}
+@font-face {
+    font-family: helve3;
+    font-style: roman;
+    src: url('../fonts/HelveticaRoman.otf');
+}
+@font-face {
+    font-family: helve4;
+    font-style: fractions;
+    src: url('../fonts/HelveticaFractions.otf');
+}
+@font-face {
+    font-family: helve5;
+    font-style: obl;
+    src: url('../fonts/HelveticaObl.otf');
+}
+
+.squares-back-works{
+    background:  url(../img/back6.png);
+    background-size: 400px;
+   
+}
+.work-back-div{
+    
+    padding: 60px 10px;
+    display: flex;
+    justify-content: center;
+background: rgba(0, 0, 0, 0.514);
+
+
+}
+.work-back{
+   
+    width: 90%;
+    padding: 30px 10px;
+}
+.work-div{
+    margin-top: 70px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.work-card{
+    
+    margin-top: 20px;
+    width: 280px;
+    padding: 20px 10px;
+
+}
+.work-line{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 50%;
+    height: 3px;
+    background: white;
+}
+.work-land{
+    width: 100%;
+    padding: 20px 10px;
+}
+.work-title{
+    font-family: helve1;
+    font-style: bold;
+    color: white;
+    font-size: 40px;
+
+}
+.work-para{
+    font-family: helve2;
+    font-style: light; 
+    color: white;
+    font-size: 20px;   
+}
+.works-title-card{
+    font-family: helve1;
+    font-style: bold;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.button-entrar{
+    margin-top: 90px;
+    width: 100px;
+    padding: 10px 30px;
+    text-decoration: none;
+    background: rgb(0, 182, 91);
+    color: white;
+    border-radius: 15px;
+    font-family: helve2;
+    font-style: light;
+    font-size: 20px;  
+}
+
+
+/*
+.squareback-works{
+    position: absolute;
+    height: 50px;
+	width: 50px;
+    margin-left: 800px;
+    margin-top: 140px;
+    background: rgb(0, 182, 91);
+    animation-name: squareback1-works;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes squareback1-works {
+    
+    0%{
+        margin-left: 810px;
+    }
+    10%{
+        margin-left: 820px;
+    }
+    30%{
+        margin-left: 830px;
+    }
+    60%{
+        margin-left: 820px;
+    }
+    100%{
+        margin-left: 810px;
+    
+    }
+    }
+
+
+
+    .squareback2-works{
+        position: absolute;
+        margin-left: 830px;
+        margin-top: 140px;
+        height: 50px;
+        width: 50px;
+        border: white solid 3px;
+        animation-name: squareback2-works;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        
+    }
+    
+    @keyframes squareback2-works {
+    
+        0%{
+            margin-left: 870px;
+        }
+        10%{
+            margin-left: 880px;
+        }
+        30%{
+            margin-left: 940px;
+        }
+        60%{
+            margin-left: 870px;
+        }
+        100%{
+            margin-left: 860px;
+        
+        }
+        }
+    
+.squareback3-works{
+    position: absolute;
+    margin-left: 860px;
+    margin-top: 140px;
+    height: 50px;
+    width: 50px;
+    background-color: #96969650;
+    animation-name: squareback3-works;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes squareback3-works {
+    
+    0%{
+        margin-left: 900px;
+    }
+    10%{
+        margin-left: 910px;
+    }
+    30%{
+        margin-left: 930px;
+    }
+    60%{
+        margin-left: 910px;
+    }
+    100%{
+        margin-left: 870px;
+    
+    }
+    }
+
+
+
+
+
+*/
+
+
+
+
+
+
+@media(max-width:1000px){
+    .work-div{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .work-card{
+       
+        margin-top: 20px;
+        width: 280px;
+        margin-left: 20px;
+        margin-left: 20px;
+        padding: 20px 10px;
+    
+    }
+    
+}
+
+
+@media(max-width:750px){
+    .squares-back-works{
+        background:  url(../img/back6.png);
+        background-size: 500px;
+       
+    }
+    .work-card{
+       
+        margin-top: 20px;
+        width: 350px;
+        margin-left: 20px;
+        margin-left: 20px;
+        padding: 20px 10px;
+        justify-content: left;
+    }
+
+
+    .work-line{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 100%;
+        height: 3px;
+        background: white;
+    }
+
+
+}
+

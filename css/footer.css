@@ -1,0 +1,126 @@
+
+@font-face {
+    font-family: helve1;
+    font-style: bold;
+    src: url('../fonts/HelveticaBold.otf');
+}
+@font-face {
+    font-family: helve2;
+    font-style: light;
+    src: url('../fonts/HelveticaLight.otf');
+}
+@font-face {
+    font-family: helve3;
+    font-style: roman;
+    src: url('../fonts/HelveticaRoman.otf');
+}
+@font-face {
+    font-family: helve4;
+    font-style: fractions;
+    src: url('../fonts/HelveticaFractions.otf');
+}
+@font-face {
+    font-family: helve5;
+    font-style: obl;
+    src: url('../fonts/HelveticaObl.otf');
+}
+
+.footer-container{
+    background: rgb(0, 182, 91);
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+}
+.footer-container-div{
+    
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: space-between;
+ 
+    width: 85%;
+    
+}
+.logofooter{
+    font-family: helve1;
+    font-style: bold;
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
+.footercontact{
+    font-family: helve1;
+    font-style: bold;
+    font-size: 30px;
+    color: rgb(241, 241, 241);
+}
+.footermenu{
+    font-family: helve1;
+    font-style: bold;
+    font-size: 30px;
+    color: rgb(241, 241, 241);
+}
+.footer-para{
+
+    font-family: helve3;
+    font-style: roman;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+    margin-top: 5px;
+}
+
+.footerone{
+    width: 30%;
+}
+
+.footertwo{
+    width: 30%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+    
+
+}
+.footerthree{
+    width: 30%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.footer-line{
+    width: 100%;
+    background: white;
+    height: 3px;
+margin-bottom: 30px;
+}
+
+
+@media(max-width:600px){
+    .footertwo{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    
+    }
+
+
+    .footer-para{
+        margin-top: 5px;
+
+
+
+
+    }
+    .footerthree{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+}

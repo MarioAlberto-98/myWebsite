@@ -1,0 +1,338 @@
+/*  Section general  */
+.about-me{
+    background: rgb(219, 219, 219);
+}
+
+/* Container scroll   */
+.container-gen-aboutme{
+    padding: 30px;
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(219, 219, 219);
+}
+/* Div para dividir en dos secciones */
+
+.container-aboutme{
+    width: 100%;
+    background: rgb(219, 219, 219);
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;  
+}
+
+
+/* Primera seccion sobre about me, compentence y contacto*/
+.text-info-sec{
+    width:50%; 
+padding: 80px 80px;
+    
+}
+
+.title-aboutme{
+    margin-bottom: 10px;
+    font-family: helve1;
+    font-size: 50px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+}
+.line1-aboutme{
+    margin-bottom: 10px;
+width: 100%;
+height: 3px;
+background: black;
+}
+.apt-text{
+margin-top: 70px;
+}
+.para-aboutme{
+    text-align: justify;
+    font-family: helve3;
+    width: 100%;
+    font-size: 18px;
+    color: rgb(46, 46, 46);
+}
+
+.line2-aboutme{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 3px;
+    background: black; 
+}
+
+.compe-aboutme{
+    margin-top: 5px;
+    font-family: helve3;
+    font-size: 18px;
+    color: rgb(49, 49, 49);
+}
+.content-compentence{
+    
+    display: flex;
+	flex-direction: row;
+	
+}
+
+.title-contact{
+    margin-top: 140px;
+    width: 50px;
+    transform: rotate(-90deg);
+    font-size: 50px;
+    font-family: helve1;
+    color: rgb(0, 0, 0);
+}
+
+.correo-link-git{
+    display: flex;
+	flex-direction: column;
+    margin-left: 10px;
+    
+}
+.correo-link-git a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: helve3;
+   margin-top: 10px;
+}
+
+.correo-link-git  p{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: helve3;
+   margin-top: 10px;
+}
+
+.contact-items{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    
+}
+.gen-contact{
+    margin-top: 50px;
+}
+
+.competence-sec{
+    padding: 0px 10px;
+    width: 50%;
+}
+
+.compe-aboutme .fa-circle{
+    font-size: 8px;
+
+}
+
+
+
+/* Segunda seccion sobre habilidades*/
+
+.inf-aboutme{
+  width:50%;  
+  padding: 30px 30px;
+  background: rgb(219, 219, 219);
+  display: flex;
+  justify-content: center;
+    
+}
+  
+  .background-black{
+    background: rgb(20, 20, 20);
+padding: 50px 20px;
+width: 90%;
+
+
+  }
+.line3-aboutme{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 3px;
+    background: rgb(218, 218, 218);
+}
+.sec-abili-one{
+    background: rgb(20, 20, 20);
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    margin-bottom: 30px;
+
+}
+.sec-abili-two{
+
+    background: rgb(20, 20, 20);
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.sec-abili-three{
+    background: rgb(20, 20, 20);
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+
+}
+.data-abili-porce{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bar-knowedge1{
+    margin-top: 10px;
+    width: 80%;
+    height: 5px;
+    border-radius: 20px;
+    background: rgb(1, 207, 80);
+}
+.bar-knowedge2{
+    margin-top: 10px;
+    width: 70%;
+    height: 5px;
+    border-radius: 20px;
+    background: rgb(1, 207, 80);
+}
+.bar-knowedge3{
+    margin-top: 10px;
+    width: 90%;
+    height: 5px;
+    border-radius: 20px;
+    background: rgb(1, 207, 80);
+}
+.bar-knowedge4{
+    margin-top: 10px;
+    width: 70%;
+    height: 5px;
+    border-radius: 20px;
+    background: rgb(1, 207, 80);
+}
+.bar-knowedge5{
+    margin-top: 10px;
+    width: 50%;
+    height: 5px;
+    border-radius: 20px;
+    background: rgb(1, 207, 80);
+}
+
+.bar-knowedge6{
+    margin-top: 10px;
+    width: 50%;
+    height: 5px;
+    border-radius: 20px;
+    background: rgb(1, 207, 80);
+}
+.bar-knowedge7{
+    margin-top: 10px;
+    width: 50%;
+    height: 5px;
+    border-radius: 20px;
+    background: rgb(1, 207, 80);
+}
+.bar-knowedge8{
+    margin-top: 10px;
+    width: 50%;
+    height: 5px;
+    border-radius: 20px;
+    background: rgb(1, 207, 80);
+}
+.bar-knowedge9{
+    margin-top: 10px;
+    width: 90%;
+    height: 5px;
+    border-radius: 20px;
+    background: rgb(1, 207, 80);
+}
+.num-abili{
+    background: rgb(20, 20, 20);
+    width: 15%;
+}
+.datos-abili{
+    background: rgb(20, 20, 20);
+    width: 80%;
+}
+
+.line4-technolo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+    height: 3px;
+    background: rgb(218, 218, 218);
+
+
+}
+.content-technology{
+    margin-top: 20px;
+}
+.title-abili-text{
+    margin-bottom: 10px;
+    font-family: helve1;
+    font-size: 50px;
+    width: 100%;
+    color: rgb(228, 228, 228);
+
+}
+.number-abili{
+    font-family: helve3;
+    font-size: 80px;
+    color: rgb(228, 228, 228)
+}
+.title-technolo{
+    font-family: helve1;
+    font-size: 20px;
+    color: rgb(228, 228, 228)
+    
+}
+.name-title-abili{
+    font-family: helve3;
+    font-size: 15px;
+    color: rgb(196, 196, 196)
+}
+.porce-abili{
+    font-family: helve3;
+    font-size: 15px;
+    color: rgb(228, 228, 228)
+}
+
+
+
+@media(max-width:1000px){
+  
+    .text-info-sec{
+        width:50%; 
+    padding: 80px 30px;
+        
+    }
+    .number-abili{
+        font-family: helve1;
+        font-size: 40px;
+        color: rgb(228, 228, 228)
+    }
+
+
+
+}
+
+
+@media(max-width:800px){
+
+    .container-gen-aboutme{
+       
+        margin-top: 130px;
+        
+    }
+    .inf-aboutme{
+        width:100%;  
+        padding: 30px 0px;
+        background: rgb(219, 219, 219);
+        display: flex;
+        justify-content: center;
+          
+      }
+      .text-info-sec{
+        width:100%; 
+    padding: 80px 15px;
+        
+    }
+}
